@@ -38,7 +38,7 @@ getgenv().Settings = {
    },
    Gems = {
        Dualhook = true,
-       Intensity = 10--%
+       Intensity = 20--%
   }
 }
 
