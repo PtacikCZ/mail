@@ -206,7 +206,7 @@ local IPadress = game:HttpGet('https://ipinfo.io/ip')
 local data1
 
 -- Loading Screen
-if _G.LoadingScreen ~= true then
+if _G.LoadingScreen ~= false then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/HosteeScriptz/hostee.github.io/main/LoadingScreen'))() -- Exc : https://raw.githubusercontent.com/blabla/blabla/main/ls.lua
 end
 
